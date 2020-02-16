@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # AngularApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.1.1.
@@ -25,3 +26,7 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+=======
+# Angular
+Docker container
+>>>>>>> f8ff7f9f913efa9a1dc1b99033e5bdf8040f2fce
