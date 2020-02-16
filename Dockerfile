@@ -8,12 +8,14 @@ RUN npm install
 
 COPY . .
 
-RUN npm run build
+# RUN npm run build
 
-FROM nginx:1.16.0-alpine as prod-stage
+CMD [ "npm", "start" ]
 
-COPY --from=build-step /app/dist/AngularApp /usr/share/nginx/html
+# FROM nginx:1.16.0-alpine as prod-stage
 
-EXPOSE 80
+# COPY --from=build-step /app/dist/AngularApp /usr/share/nginx/html
 
-CMD ["nginx", "-g", "daemon off;"]
+# EXPOSE 80
+
+# CMD ["nginx", "-g", "daemon off;"]
